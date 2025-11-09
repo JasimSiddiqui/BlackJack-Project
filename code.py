@@ -63,7 +63,7 @@ while True:
     reset_deck()
     player_hand = []
     dealer_hand = []
-    #Card dealing (start with 2 cards each)
+    #User enters desired bet
     while True:
         try:
             bet = int(input(f'How much money would you like to bet? Current Balance: ${cash}\n> '))
@@ -74,6 +74,7 @@ while True:
                 print('Max bet is total cash')
         except:
             print('Please enter an integer value!')
+    #Card dealing (start with 2 cards each)
     dealer_hand.append(pick_card())
     player_hand.append(pick_card())
     dealer_hand.append(pick_card())
