@@ -75,7 +75,7 @@ while True:
         player_hand.append(pick_card())
     if count_total(player_hand) == 21 or count_total(dealer_hand) == 21:
         break
-    if count_total(player_hand) > 21:
+    if count_total(player_hand) > 21 or count_total(dealer_hand) > 21:
         break
     if count_total(dealer_hand) < 16:
         dealer_hand.append(pick_card())
