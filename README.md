@@ -8,6 +8,6 @@ The dealer does not have any significant AI, will simply hit on value 16< and st
 
 Possible Additional Features:
 - Stats being saved using a .txt file
-- Money being involved [ completed ]
+- Money being involved **[ completed ]**
 - Shifting program to GUI with custom art
 - Rigging the game in dealers favor (Realism)
